@@ -1,6 +1,6 @@
 // 目标时间
-var endDate = new Date('2019-04-22 21:02:00');
-var startDate = new Date('2018-04-22 21:02:00');
+var endDate = new Date('2019/04/22 21:02:00');
+var startDate = new Date('2018/04/22 21:02:00');
 // 获取span
 var spantogetherDay = my$('togetherDay');
 var spantogetherHour = my$('togetherHour');
