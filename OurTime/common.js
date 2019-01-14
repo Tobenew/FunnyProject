@@ -3,7 +3,7 @@ function my$(id) {
 }
 
 // 处理浏览器兼容性
-// 获取第一个子元素
+// 用来获取第一个子元素
 function getFirstElementChild(element) {
     var node, nodes = element.childNodes, i = 0;
     while (node = nodes[i++]) {
