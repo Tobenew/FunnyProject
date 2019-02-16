@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 得到随机的小方块 -->
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="main">
+	<h1 id="title">贪吃蛇	v0.1</h1>
+	<div class="contain" id="contain"></div>
+	<div class="scorePart"></div>
+</div>
+<script src="js/tools.js"></script>
+<script src="js/box.js"></script>
+<script>
+	var parent = document.getElementById('contain')
+	var box1 = new Box(parent);
+	setInterval(() => {
+	box1.random();	
+	}, 500);
+</script>
+</body>    
+</html>
